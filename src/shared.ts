@@ -1,6 +1,6 @@
 import type { PrismaClient } from '@prisma/client';
-import type { SocketConfig } from '@whiskeysockets/baileys';
-import { DEFAULT_CONNECTION_CONFIG } from '@whiskeysockets/baileys';
+import type { SocketConfig } from 'baileys';
+import { DEFAULT_CONNECTION_CONFIG } from 'baileys';
 import invariant from 'tiny-invariant';
 
 let prisma: PrismaClient | null = null;
